@@ -16,8 +16,8 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+html, body {
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
@@ -29,5 +29,8 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
+  } */
+
+  background-color: #303446;
+  color: white;
 }
