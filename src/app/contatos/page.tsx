@@ -4,19 +4,17 @@ import Link from "next/link";
 const Contatos = () => {
 
     return(
-        <>    
-        <head>
-        <title> Meus Contatos </title>
-        </head>
+    <>    
+        <Head>
+            <title>Meus Contatos</title>
+        </Head>
         <main>
-            <div>
-                <h1>Contatos</h1>
-                <Link href="/">Ir para página inicial</Link>
-            </div>
+            <h1>Contatos</h1>
+            <Link href="/">Ir para página inicial</Link>
         </main>
-        </>
+    </>
     );
-}
+};
 
 
 export default Contatos;
